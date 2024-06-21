@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'JetBrainsMono Nerd Font', 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.TitleIdleGame {
+    text-align: center;
+}
+
+.headerContainer {
+    text-align: center;
+}
+
+.buttons {
+    padding: 5px;
+}
+
+.buttons button {
+    font-size: 14px;
+    padding: 8px 14px;
+    margin: 5px;
+    border: none;
+    border-radius: 18px; /* Rounded corners */
+    cursor: pointer; /* Change cursor on hover */
+    transition: background-color 0.3s; /* Smooth background color transition on hover */
+  }
+
+.buttons button:hover {
+    background-color: #ddd; /* Light grey background on hover */
+}
+
+/* Individual button styles */
+#button1 {
+    background-color: skyblue;
+}
+  
+#button2 {
+    background-color: lightgreen;
+}
+  
+#button3 {
+    background-color: tomato;
+    color: white; 
+}
+
+.buttons button:active {
+    background-color: #bbb; /* Darker background to indicate click */
+    transform: scale(0.95); /* Slightly scale down the button */
+  }

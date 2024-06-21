@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <link rel="stylesheet" href="style.css">
+    <title>Idle Game | keiwsh</title>
+</head>
+<body>
+    <h1 class="TitleIdleGame">Idle Game | keiwsh</h1>
+    <div class="headerContainer">
+        <div class="stats">
+        <span class="stat">Health: <strong><span id="healthText">100</span></strong></span>
+        <span class="stat">Money: <strong><span id="moneyText">100</span></strong></span>
+        <span class="stat">Gold: <strong><span id="goldText">100</span></strong></span>
+        <span class="stat">Current Weapon: <strong><span id="currentWeaponText">""</span></strong></span>
+     </div>
+     <div class="buttons">
+        <button id="button1">Go to store</button>
+        <button id="button2">Go to cave</button>
+        <button id="button3">Upgrade Equipment</button>
+     </div>
+    </div>
+
+    <div class="storeGameContainer" style="display: none;">
+        <button class="buyHealth">Buy Health</button>
+  
+        <img src="Images/Shop.png" alt="" class="shopImage">
+
+    </div>
+
+    <div class="caveGameContainer" style="display: none;">
+        <button id="killGoblin">Kill Goblin</button>
+        <button id="killDragon">Kill Dragon</button>
+        <button id="killTroll">Kill Troll</button>
+   
+        <img src="Images/Cave.png" alt="" class="caveImage">
+    </div>
+
+    <div class="homeGameContainer" style="display: none;">
+        <button class="repairWeapon">Repair Weapon</button>
+
+        <img src="Images/Home.png" alt="homeImage">
+    </div>
+</body>
+<script src="style.js"></script>
+</html>
